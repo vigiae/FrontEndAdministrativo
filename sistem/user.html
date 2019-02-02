@@ -124,68 +124,54 @@
                         <div class="col-md-8">
                             <div class="card">
                                 <div class="card-header"  style="background-color: #2862a1">
-                                    <h4 class="title">Informações da denuncia</h4>
+                                    <h4 class="title">Informações da denúncia</h4>
                                     <p class="category">Confira os dados para aprovar</p>
                                 </div>
                                 <div class="card-content">
                                     <form>
                                         <div class="row">
                                             <div class="col-md-12">
-                                                <div id="googleMap" style="width:100%;height:350px;"></div>
+                                                <div id="map" style="width:100%;height:350px;"></div>
                                             </div>
                                         </div>
                                         <div class="row">
-                                            <div class="col-md-5">
+                                            <div class="col-md-12">
                                                 <div class="form-group label-floating">
                                                     <label class="control-label">Inicio:</label>
-                                                    <input type="text" class="form-control" value="Av Bras Leme, 1000, Santana" disabled>
+                                                    <input type="text" class="form-control" value="Rua Ismael da Silva Mello, Mogi das Cruzes" disabled>
                                                 </div>
-                                            </div>
-                                            <div class="col-md-5">
-                                                <div class="form-group label-floating">
-                                                    <label class="control-label">Fim:</label>
-                                                    <input type="text" class="form-control" value="Estação Lapa" disabled>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-2">
-                                                <div class="form-group label-floating">
-                                                    <label class="control-label">Distancia:</label>
-                                                    <input type="email" class="form-control" value="2,2 KM" disabled>
-                                                </div>
-                                            </div>
+                                            </div>  
                                         </div>
                                         <div class="row">
-                                            <div class="col-md-2">
+                                            <div class="col-md-12">
                                                 <div class="form-group label-floating">
-                                                    <label class="control-label">Tempo:</label>
-                                                    <input type="text" class="form-control" value=" 10 Minutos" disabled>
+                                                    <label class="control-label">Descrição:</label>
+                                                    <input type="text" class="form-control" value="Estavam colocando fogo na mata!!" disabled>
                                                 </div>
-                                            </div>
-                                            <div class="col-md-2">
-                                                <div class="form-group label-floating">
-                                                    <label class="control-label">Velocidade Média:</label>
-                                                    <input type="text" class="form-control" value="17 k/h">
-                                                </div>
-                                            </div>
+                                            </div>  
+                                        </div>
+                                        <div class="row">                         
                                             <div class="col-md-6">
                                                 <div class="form-group label-floating">
-                                                    <label class="control-label">Transporte público:</label>
+                                                    <label class="control-label">Arquivos</label>
                                                     <br>
                                                     <ul>
-                                                        <li><i class="material-icons">directions_bus</i> Onibus Metro Santana 208M-10</li>
-                                                        <li><i class="material-icons">directions_subway</i> Metro Vermelha - Barra Funda</li>
+                                                        <li><i class="material-icons" style="color:#d3d3d3">photo</i> Imagem</li>
+                                                        <!-- <li><i class="material-icons">directions_bus</i> Onibus Estação Lapa 4334-1</li> -->
+                                                    </ul>
+                                                    <ul>
+                                                        <li><i class="material-icons" style="color:#d3d3d3;">mic</i> Arquivo de Áudio</li>
+                                                        <!-- <li><i class="material-icons">directions_bus</i> Onibus Estação Lapa 4334-1</li> -->
+                                                    </ul>
+                                                    <ul>
+                                                        <li><i class="material-icons">videocam</i> Vídeo</li>
                                                         <!-- <li><i class="material-icons">directions_bus</i> Onibus Estação Lapa 4334-1</li> -->
                                                     </ul>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="row">
-                                            <div class="col-md-4">
-                                                <div class="form-group label-floating">
-                                                    <label class="control-label">Valor de Beneficio:</label>
-                                                    <input type="text" class="form-control text-center" value="R$ 6,66">
-                                                </div>
-                                            </div>
+                                            
                                             <div class="col-md-8">
                                                 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
                                                 <button type="button" class="btn btn-primary" style="background-color: #4CAF50;" data-toggle="modal" data-target="#aprovar"><i class="material-icons">done</i>&nbspAprovar</button>
@@ -209,6 +195,8 @@
                                 </div>
                                 <div class="content">                                    
                                     <h4 class="card-title"><b>Usuário anonimo</b></h4>
+                                    <br>
+                                    <h5 class="card-title"><b>Denúncia</b></h5>
                                     <p class="card-content">
                                        TIPO: MEIO AMBIENTE <br>
                                        GRAVIDADE: MÁXIMA <br>                                       
@@ -219,8 +207,6 @@
 
                                     <div id="container" style="height: 200px; width: 100%; margin-top: -20 auto"></div>
                                     <p style="Font-size: 15px;"><i class="material-icons" style="color: green; vertical-align: text-bottom;">done</i> 90% aprovado - <i class="material-icons" style="color: red; vertical-align: text-bottom;">close</i> 10% reprovado</p>
-                                    <hr>
-                                    <img class="img" src="../../../imagens/logos.png" style="width: 90%;" />
                                     <br>
                                     <br>
                                 </div>
@@ -322,7 +308,7 @@
 
 
                         </script>
-                        <a href="#">DiBike</a>, construindo a cidade do amanhã 
+                        <a href="#">VigiAe</a>, protegemos você! 
                     </p>
                 </div>
             </footer>
@@ -423,113 +409,50 @@
 <!--  Notifications Plugin    -->
 <script src="../assets/js/bootstrap-notify.js"></script>
 <!--  Google Maps Plugin    -->
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDFlIUbigIwX4o7pMpqr8_Z_dFRipZ_lac"></script>
+<!--<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDFlIUbigIwX4o7pMpqr8_Z_dFRipZ_lac"></script>-->
 <!-- Material Dashboard javascript methods -->
 <script src="../assets/js/material-dashboard.js?v=1.2.0"></script>
 <!-- Material Dashboard DEMO methods, don't include it in your project! -->
 <script src="../assets/js/demo.js"></script>
 
+
+
 <script>
-	var map;
-	var geocoder = new google.maps.Geocoder();
-	var origemTxt= "Pico do Urubu, Mogi das Cruzes - SP";
-	var destinoTxt = "Hospital das Clínicas Luzia de Pinho Melo";
-	var directionsService;
-	
-    var mapOptions = 
-	{
-        center: new google.maps.LatLng(-23.599094, -46.638291), zoom: 11,
-        mapTypeId: google.maps.MapTypeId.ROADMAP
-    };
+    var geocoder;
+    var map;
+    var address = "new york city";
+    geocoder = new google.maps.Geocoder();
+    function initMap() {
+        var uluru = { lat: -23.53667471, lng: -46.18908226 };
+        var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 20,
+            center: uluru
+        });
+        var marker = new google.maps.Marker({
+            position: uluru,
+            map: map
+        });
+        codeAddress(address);
 
-    function initialize()
-    {
-	
-        map = new google.maps.Map(document.getElementById("googleMap"), mapOptions);
-
-		setTimeout(function(){ setDirections(); }, 2000);
     }
 
-	function setDirections()
-	{
-		directionsService = new google.maps.DirectionsService();
-		
-        var directionsDisplay = new google.maps.DirectionsRenderer({
-            suppressMarkers: false,
-            suppressInfoWindows: true,
-			polylineOptions: { strokeColor: "#002f6c" }
-        });
-		
-        directionsDisplay.setMap(map);
+    function codeAddress(address) {
 
-        var requestBike = {
-          origin: origemTxt,
-          destination: destinoTxt,
-          travelMode: 'BICYCLING'
-        };
-		
-        directionsService.route(requestBike, function (response, status) 
-		{
-            if (status == google.maps.DirectionsStatus.OK) 
-			{
-                directionsDisplay.setDirections(response);
+        geocoder.geocode({ 'address': address }, function (results, status) {
+            if (status == 'OK') {
+                    var marker = new google.maps.Marker({
+                    position: address,
+                    map: map
+                });
+            } else {
+                alert('Geocode was not successful for the following reason: ' + status);
             }
         });
+    }
 
-        directionsDisplay2 = new google.maps.DirectionsRenderer({
-            suppressMarkers: false,
-            suppressInfoWindows: true,
-			polylineOptions: { strokeColor: "#8b0013" }
-        });
-		
-        directionsDisplay2.setMap(map);
 
-        var requestBus = {
-          origin: origemTxt,
-          destination: destinoTxt,
-          travelMode: 'TRANSIT'
-        };
-		
-        directionsService.route(requestBus, function (response, status) {
-            if (status == google.maps.DirectionsStatus.OK) {
-                directionsDisplay2.setDirections(response);
-            }
-        });
-		
-		codeAddress(origemTxt, 1000);
-		codeAddress(destinoTxt, 500);
-	}
-	
-	function codeAddress(address, radius) 
-	{
-		geocoder.geocode( { 'address': address}, function(results, status) 
-		{
-		  if (status == 'OK') 
-		  {
-			new google.maps.Circle({
-				strokeColor: '#FF0000',
-				strokeOpacity: 0.8,
-				strokeWeight: 2,
-				fillColor: '#FF0000',
-				fillOpacity: 0.35,
-				map: map,
-				center: results[0].geometry.location,
-				radius: radius
-			});
-		  } 
-		  else 
-		  {
-			alert('Geocode was not successful for the following reason: ' + status);
-		  }
-		});
-	  }
-	
-    google.maps.event.addDomListener(window, 'load', initialize);
-
-	function go_to_table(){
-		window.location.href = 'table.html';
-		
-	}
 </script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDFlIUbigIwX4o7pMpqr8_Z_dFRipZ_lac&callback=initMap"
+    async defer></script>
 
 </html>
