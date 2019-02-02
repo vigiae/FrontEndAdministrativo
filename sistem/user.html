@@ -1,12 +1,13 @@
 <!doctype html>
 <html lang="en">
 
+
 <head>
     <meta charset="utf-8" />
     <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png" />
     <link rel="icon" type="image/png" href="../assets/img/favicon.png" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <title>DiBike | Detalhe viagem</title>
+    <title>VigiAe | Painel de Controle</title>
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
     <meta name="viewport" content="width=device-width" />
     <!-- Bootstrap core CSS     -->
@@ -18,7 +19,9 @@
     <!--     Fonts and icons     -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,300|Material+Icons" rel='stylesheet'>
-    <link rel="icon" href="../assets/img/DiBike.ico">
+
+    <link rel="icon" href="../assets/img/security.ico">
+
 </head>
 
 <body>
@@ -29,15 +32,17 @@
 
         Tip 2: you can also add an image using data-image tag
     -->
-            <div class="logo">
+            <div class="logo" style="justify-content:center;align-items: center; display: grid;">
                 <a href="" class="simple-text">
-                    <img src="../../../imagens/web_hi_res_512.png" width="60">
+                    <img src="../assets/img/security.ico" height="35" width="35" style="margin-bottom: -20px">
+                    <h4 style="font-family: fantasy; float:right">VigiAe</h4>
                 </a>
             </div>
             <div class="sidebar-wrapper">
+               
                 <ul class="nav">
-                    <li>
-                        <a href="dashboard.html">
+                    <li class="active">
+                        <a href="dashboard.html" style="background-color: #3e6eb2;">
                             <i class="material-icons">dashboard</i>
                             <p>Pagina inicial</p>
                         </a>
@@ -49,18 +54,18 @@
                         </a>
                     </li>
                     <li>
-                        <a href="./maps.html" >
+                        <a href="./maps.html">
                             <i class="material-icons">whatshot</i>
                             <p>Mapa de calor</p>
                         </a>
                     </li>
-                    <li class="">
-                        <a href="./table.html" style="background-color: #ffa726;">
-                            <i class="material-icons">attach_money</i>
+                    <li>
+                        <a href="./table.html">
+                            <i class="material-icons">assignment</i>
                             <p class="hidden-lg hidden-md">Notifications</p>                                                           
-                            <p>Aprovar Crédito <span class="notification">25</span></p>                                                                                
+                            <p>Denúncias<span class="notification">11</span></p>                                                                                
                         </a>
-                    </li>
+                    </li>   
                     <li>
                         <a href="#" id="api_toggle">                          
                             <!-- <i class="material-icons">content_paste</i> -->
@@ -80,34 +85,35 @@
                             <!-- <i class="material-icons">content_paste</i> -->                            
                             <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspDados Privados <i class="material-icons" style="float: right;">security</i></p>
                         </a>
-                    </li>      
+                    </li>    
                     <li>
-                        <a href="config.html" data-toggle="modal" data-target="#msg">
+                        <a href="#" data-toggle="modal" data-target="#msg">
                             <!-- <i class="material-icons">content_paste</i> -->
                             <i class="material-icons">question_answer</i>
                             <p>Enviar Push</p>
                         </a>
-                    </li>               
+                    </li>
                     <li>
                         <a href="users.html">
                             <i class="material-icons">supervised_user_circle</i>
                             <p>Usuarios</p>
                         </a>
-                    </li>       
+                    </li>                     
                     <li>
                         <a href="config.html">
                             <!-- <i class="material-icons">content_paste</i> -->
                             <i class="material-icons">brightness_5</i>
                             <p>Configurações</p>
                         </a>
-                    </li>    
+                    </li>                    
                     <li>
                         <a href="responsive-login-form/index.html">
                             <!-- <i class="material-icons">content_paste</i> -->
                             <i class="material-icons">arrow_back</i>
                             <p>Sair</p>
                         </a>
-                    </li>                                               
+                    </li>
+
                 </ul>
             </div>
         </div>
@@ -118,7 +124,7 @@
                         <div class="col-md-8">
                             <div class="card">
                                 <div class="card-header" data-background-color="orange">
-                                    <h4 class="title">Informações da viagem</h4>
+                                    <h4 class="title">Informações da denuncia</h4>
                                     <p class="category">Confira os dados para aprovar</p>
                                 </div>
                                 <div class="card-content">
@@ -198,11 +204,11 @@
                             <div class="card card-profile">
                                 <div class="card-avatar">
                                     <a href="#pablo">
-                                        <img class="img" src="../assets/img/faces/rob_rob.jpg" />
+                                        <img class="img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_SkpWloelkr6eoG_JPDH2BCg_2NM_O4f2MQ11_OA-1161P7fQ7w" />
                                     </a>
                                 </div>
                                 <div class="content">                                    
-                                    <h4 class="card-title"><b>Robson Roberto Camanducci</b></h4>
+                                    <h4 class="card-title"><b>Usuário anonimo</b></h4>
                                     <p class="card-content">
                                        TIPO: Estudante <br>
                                        CPF: 316.692.930-41 <br>
@@ -391,7 +397,7 @@
                         <div class="modal-body">
                             <h4>Texto da mensagem:</h4>
                             <div class="form-group label-floating">                                        
-                                <textarea  class="form-control materialize-textarea" placeholder="Ex: Parabens! ja somos mais de 120 ciclistas hoje!" required=""></textarea>
+                                <textarea  class="form-control materialize-textarea" placeholder="Ex: Parabens! Estamos transformando a cidade" required=""></textarea>
                             </div>
 
                         </div>
@@ -427,8 +433,8 @@
 <script>
 	var map;
 	var geocoder = new google.maps.Geocoder();
-	var origemTxt= "Av Bras Leme, 1000, Santana, São Paulo, SP";
-	var destinoTxt = "Rua josé correia de lima, 212, Pirituba, São Paulo, SP";
+	var origemTxt= "Pico do Urubu, Mogi das Cruzes - SP";
+	var destinoTxt = "Hospital das Clínicas Luzia de Pinho Melo";
 	var directionsService;
 	
     var mapOptions = 

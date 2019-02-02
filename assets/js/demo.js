@@ -427,7 +427,7 @@ demo = {
 			if(i == "55" || i == "72")
 			{
 				velMedia = 52.1;
-				varIcon = "https://image.ibb.co/eeOVqo/bike_map_2_1.png";
+				varIcon = "https://www.segtaxi.com.br/assets/img/icons/taxi4.png";
 				varStatus = "<li>Status: Pré-Aprovação Cancelada</li>";
 			}
 			
